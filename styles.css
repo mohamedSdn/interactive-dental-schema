@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tooth-row {
+    display: flex;
+    height: 200px;
+}
+
+.tooth-holder {
+    /* border: 1px solid black; */
+    height: 100%;
+    flex: 100px 0 0;
+}
+
+.tooth-image {
+    height: calc(100% - 20px);
+}
+
+.tooth-number {
+    text-align: center;
+    height: 20px;
+}
+
+svg {
+    height: 100%;
+    width: 100%;
+    stroke-width: 5px;
+}
+
+path {
+    cursor: pointer;
+}

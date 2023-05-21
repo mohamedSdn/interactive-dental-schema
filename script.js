@@ -1,8 +1,9 @@
+import { getColor } from './helpers.js';
+
 const paths = document.querySelectorAll('path');
 
 paths.forEach(path => {
     path.addEventListener('click', (e) => {
-        e.target.style.fill = e.target.style.fill === "blue" ? "white" : "blue";
-        console.log(e.target.dataset.id);
+        e.target.style.fill = e.target.style.fill === "white" ? getColor(e.target.dataset.label) : "white";
     });
 });

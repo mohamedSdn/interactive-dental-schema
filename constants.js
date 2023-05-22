@@ -8,7 +8,7 @@ export const CANINE = 'canine';
 export const INSISOR = 'insisor';
 
 export const COLOR_MAPPING = {
-    crown: 'lightgray',
-    root: 'beige',
-    pulp: 'red',
+    [CROWN]: 'lightgray',
+    [ROOT]: 'beige',
+    [PULP]: 'red',
 };

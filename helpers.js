@@ -1,4 +1,4 @@
-import { CANINE, COLOR_MAPPING, CROWN, INSISOR, MOLAR, PRE_MOLAR, PULP, ROOT } from './constants.js';
+import { CANINE, COLOR_MAPPING, CROWN, INCISOR, MOLAR, PRE_MOLAR, PULP, ROOT } from './constants.js';
 
 const getToothId = (toothLabel) => {
     const toothId = toothLabel.split("-")[0];
@@ -13,7 +13,7 @@ const getToothPart = (toothLabel) => {
 const getToothType = (toothId) => {
     const index = toothId % 10;
     if (index <= 2) {
-        return INSISOR;
+        return INCISOR;
     } else if (index === 3) {
         return CANINE;
     } else if (index >= 6) {

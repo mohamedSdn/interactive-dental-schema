@@ -5,7 +5,7 @@ export const PULP = 'pulp';
 export const MOLAR = 'molar';
 export const PRE_MOLAR = 'premolar';
 export const CANINE = 'canine';
-export const INSISOR = 'insisor';
+export const INCISOR = 'incisor';
 
 export const COLOR_MAPPING = {
     [CROWN]: 'lightgray',
